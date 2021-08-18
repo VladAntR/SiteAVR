@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AvR furniture for garden</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco:wght@300&family=Rozha+One&display=swap" rel="stylesheet">      
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mob.css">
+</head>
+<body>
+    <div class="wraper">
+        <header>
+            <div class="logo">
+                <img src="img/logo/Logo.png" alt="Logotype" class="imgLogo">
+            </div>
+            <!-- Navigation for laptop  -->
+            <nav>
+                <ul>
+                    <li><a href="../catalog/KitComfort.html" class="Force">Back</a></li>
+                    <li><a href="../index.html" class="Force">Home</a></li>
+                </ul>
+            </nav>
+            <div class="information">
+                <div class="number">
+                    <h1 class="first_number">+380661031968</h1>
+                    <h1 class="second_number">+380661031968</h1>
+                    <div class="logo"><img src="img/icons/icon call.png" alt=""></div>
+                </div>
+                <div class="email">AVR-@ukr.net</div>
+            </div>
+            <div class="box_icon"><a href="#" id="menu" class="icon">&#9776;</a></div>
+        </header>    
+            <!-- Navigation for mobile -->
+            <div class="burger-menu" id="burger-menu">
+                <div class="navigation">
+                    <ul class="ul">
+                        <li><a href="../catalog/KitComfort.html" class="Force">Back</a></li>
+                        <li><a href="../index.html" class="Force">Home</a></li>
+                    </ul>
+                </div>
+                <div class="information_mob">
+                    <div class="numbers_mob">
+                        <div class="numbers_group">
+                            <h1 class="number_mob1">+380661031968</h1>
+                            <h1 class="number_mob2">+380661031968</h1>
+                        </div>
+                        <img src="img/icons/icon call mob.png" alt="icon call" class="logo_mob">
+                    </div> 
+                </div>
+                <div class="email_mob">AVR-@ukr.net</div>
+            </div>
+        <section>
+            <h1 class="titleOrder">Your Order</h1>
+            <div class="container">
+                <div class="yourPurchase">
+                    <img src="img/product/Kit Comfort.png" alt="" class="iconProduct">
+                    <div class="boxInf">
+                        <h3 class="nameProd">Kit Comformt</h3>
+                        <h4 class="description">Details:</h4>
+                        <ul class="itemsDetal">
+                            <li class="detal">Table - 1 piece</li>
+                            <li class="detal">Sofa - 1 piece</li>
+                            <li class="detal">Armchaire - 1 piece</li>
+                        </ul>
+                        <h4 class="result">Price: 300$ for complects</h4>
+                    </div>
+                </div>
+                <div class="form" action="https://24navo.com/2/t/b0.php">
+                    <form action="#" id="form" class="form_body">
+                        <div class="form_item">
+                            <input type="text" id="formName" name="Name" class="formInput _req" placeholder="Name">
+                        </div>
+                        <div class="form_item">
+                            <input type="text" id="formNumber" name="Number phone" class="formInput _req" placeholder="Number name">
+                        </div>
+                        <div class="form_item">
+                            <input type="text" id="formEmail" name="Email" class="formInput _req _email" placeholder="Email">
+                        </div>
+                        <div class="form_item">
+                            <div class="form_title">Delivery</div>
+                            <input type="text" id="formCity" name="City" class="formInput _req" placeholder="City">
+                            <div class="options">
+                                <div class="option_item">
+                                    <input type="radio" checked name="Delivery" class="optionsInput" id="formDelivDepartment" value="Delivery to departure ���� �����">
+                                    <label for="formDelivDepartment" class="optionsLable"><span> Delivery  for department &#8217New post&#8217</span></label>
+                                </div>
+                                <div class="option_item">
+                                    <input type="radio" name="Delivery" class="optionsInput" id="formDelivToAddress" value="Delivery to your address">
+                                    <label for="formDelivToAddress" class="optionsLable"><span> Delivery by courier &#8217New post&#8217 to your address</span></label>
+                                </div>
+                                <div class="option_item">
+                                    <input type="radio" name="Delivery" class="optionsInput" id="formDelivSelf_pickup" value="You pick up the order yourself">
+                                    <label for="formDelivSelf_pickup" class="optionsLable"><span> self-pickup for our shop &#8217AVR&#8217</span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form_item">
+                            <textarea name="messege" id="formMessege" class="formInput" placeholder="Coments"></textarea>
+                        </div>
+                        <div class="form_item">
+                            <div class="checkbox">
+                                <input type="checkbox" checked name="agreement" class="checkboxInput _req" id="formAgreement"> 
+                                <label for="formAgreement" class="checkboxLabel "><span>I agree with all rules use my own data</span></label>
+                            </div>
+                        </div>
+                        <button type="submit" class="form_button">Place an order</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer></footer>
+    </div>    
+<script src="js/script.js"></script>    
+<script>
+    document.getElementById("menu").onclick = function(){
+        open();
+    }
+    
+    function open(){
+       document.getElementById("burger-menu").classList.toggle("show");
+    }    
+</script>     
+</body>
+</html>

@@ -1,0 +1,195 @@
+@media screen and (max-width:600px){
+
+/****************************************************************
+                        Header HOME
+****************************************************************/
+
+.wraper{
+    width: 100%;
+    margin: 0;
+}
+
+
+.logo{
+    width: 100%;
+}
+
+.imgLogo{
+    width: 100%;
+}
+
+.show{
+    height: 80vh;
+}
+
+.navigation{
+    width: 100%;
+    display: block;
+}
+
+.ul{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+}
+
+.force{
+    text-align: center;
+    padding-top: 7%;
+    font-size: 40px;
+}
+
+.email_mob{
+    display: none;
+}
+
+.information_mob{
+    display: none;
+}
+
+
+.languages_mob{
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.languages_mob a{
+    margin: 0;
+}
+
+.languages_mob a img{
+    width: 100px;
+}
+
+/****************************************************************
+                        Section HOME
+****************************************************************/
+
+.Title_Slogan{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/***********************Section Catalog*****************************************/
+
+.title_Catalog{
+    font-size: 60px;
+}
+
+.boxCatalog{
+    padding:3%;
+}
+
+.boxProduct{
+    width: 100%;
+}
+
+.boxProduct img{
+    width: 100%;
+}
+
+/***********************Section Materials and Slogan********************************/
+
+.textSlogan{
+    font-size: 26px;
+    top:5%;
+    right: 5%;
+    border: none;
+}
+
+.textBox{
+    position: relative;
+}
+
+.titleMaterials{
+    font-size: 60px;
+    margin:-12% 0 0 0 ;
+}
+
+.imgMaterials{
+    display: none;
+}
+
+.imgMaterMob{
+    display: block;
+    width: 100%;
+}
+
+/***********************Section About us********************************/
+
+.titleAboutUs{
+    font-size: 60px;
+}
+
+.Content{
+    padding: 1% 6%;
+}
+
+.ContentLeft{
+    border: none;
+    width: 100%;
+    font-size: 17px;
+}
+
+.ContentRight{
+    display: none;
+}
+
+.numFirst, .numSecond, .emailBoxAbout a{
+    font-size: 15px;
+}
+
+.inf{
+    width: 90%;
+    left:2%;
+}
+
+.emailBoxAbout{
+    display: none;
+}
+
+.iconCallAS{
+    width: 25px;
+}
+
+/****************************************************************
+                        Footer HOME
+****************************************************************/
+
+footer{
+    display: block;
+}
+
+.blockLogo{
+    width: 100%;
+}
+
+.logoFooter{
+    display: block;
+    margin: 0 auto;
+}
+
+.services{
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 5%;
+}
+
+.services h2 a{
+    font-size: 35px;
+    padding-top: 5%;
+}
+
+.additInf{
+    width: 50%;
+    display: block;
+    margin: 5% auto;
+}
+
+    
+
+
+}

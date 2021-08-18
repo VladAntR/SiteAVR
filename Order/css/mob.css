@@ -1,0 +1,73 @@
+@media screen and (max-width:900px){
+    /*SECTION*/
+
+    .container{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:560px) {
+   /*HEADER*/
+    header{
+        width: 100%;
+        padding: 0;
+    }
+
+    .navigation{
+        width: 100%;
+    } 
+
+    .logo{
+        width: 100%;
+    }
+    
+    .imgLogo{
+        width: 100%;
+    }
+
+    .icon{
+        margin-right: 10%;  
+    }
+
+    .information_mob{
+        display: none;
+    }
+
+    .email_mob{
+        width: 100%;
+    }
+   
+    /*SECTION*/
+    section{
+        padding: 2%;
+    }
+
+    .container{
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .yourPurchase{
+        display: block;
+        margin-top: 2%;
+    }
+
+    .nameProd{
+        margin-top: 4%;
+    }
+
+    .description{
+        margin-top: 3%;
+    }
+
+    .itemsDetal{
+        margin-top: 2%;
+    }
+
+    .detal{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+}

@@ -1,0 +1,145 @@
+@media screen and (max-width:600px){
+
+/****************************************************************
+                            Header 
+****************************************************************/
+    
+    .wraper{
+        width: 100%;
+        margin: 0;
+    }
+    
+    
+    .logo{
+        width: 100%;
+    }
+    
+    .imgLogo{
+        width: 100%;
+    }
+    
+    .show{
+        height: 25vh;
+    }
+    
+    .navigation{
+        width: 100%;
+        display: block;
+    }
+    
+    .ul{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .force{
+        text-align: center;
+        padding-top: 7%;
+        font-size: 40px;
+        width: auto;
+        display: block;
+        margin: auto;
+    }
+    
+    .email_mob{
+        display: none;
+    }
+    
+    .information_mob{
+        display: none;
+    }
+    
+    
+    .languages_mob{
+        display: none;
+    }
+
+
+/****************************************************************
+                            Section
+****************************************************************/
+
+.NameProduct{
+    font-size: 40px;
+}
+
+.Weight, .SizeSofa, .SizeTable, .SizeChair{
+    width: 100%;
+    display: flex;
+    padding: 0;
+}
+
+.blockInf{
+    padding: 3% 0 3% 3%;
+}
+
+.BlockPrice{
+    display: block;
+}
+
+.Price{
+   justify-content: center;
+   color: #211310;
+   padding: 0;
+}
+
+.buttonBox{
+    width: 100%;
+}
+
+.buttonBuy{
+    margin: 0 auto;
+}
+
+.buttonBuy a{
+    line-height: 70px;
+    font-size: 40px;
+}
+
+.contentBox{
+    display: block;
+}
+
+li{
+    text-align: left;
+    margin: 0;
+}
+
+/****************************************************************
+                            Footer
+****************************************************************/
+
+footer{
+    display: block;
+}
+
+.blockLogo{
+    width: 100%;
+}
+
+.logoFooter{
+    display: block;
+    margin: 0 auto;
+}
+
+.services{
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 5%;
+}
+
+.services h2 a{
+    font-size: 35px;
+    padding-top: 5%;
+}
+
+.additInf{
+    width: 50%;
+    display: block;
+    margin: 5% auto;
+}
+
+
+}   

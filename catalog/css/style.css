@@ -1,0 +1,443 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background: url("../img/background/bg.png");
+}
+
+.wraper{
+    display: block;
+    margin: 5% auto;
+    width: 90%;
+    background-color:#ffffff;
+}
+
+/**********************************
+            Header
+***********************************/
+
+header{
+    background-color: #000;
+    padding: 1% 3%;
+    display: flex;
+}
+
+nav{
+    width: 60%;
+}
+ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    margin: 0 5%;
+    width: 50%;
+    text-align: center;
+}
+
+.force{
+    color: #785B34;
+    font-size: 25px;
+    padding: 2% 0;
+    font-family: 'Rozha One', serif;
+    transition: ease-in-out .3s;
+}
+
+.force:hover{
+    border-bottom: solid 2px #785B34;
+}
+
+.number{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1%;
+}
+
+.first_number{
+    color: #C3B199;
+    border-right: solid 1px #C3B199;
+    padding: 0 1% 0 0%;
+    font-size: 20px;
+}
+
+.second_number{
+    color: #C3B199;
+    padding: 0 1%;
+    font-size: 20px;
+}
+
+.information{
+    width: 40%;
+}
+
+.languages{
+    float: right;
+}
+
+.img_language:hover{
+    border: solid 1px #ffffff;
+}
+
+.email{
+    color: #C3B199;
+    font-size: 23px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    display: none;
+}
+
+.burger-menu{
+    display: none;
+    transition: ease-in-out .3s;
+}
+
+
+/*******************************************************************
+
+                        Meadia header
+
+********************************************************************/
+@media screen and (max-width: 1214px){
+    
+    .information{
+        display: none;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .box_icon{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .icon{
+        display: block;
+        float: right;
+        font-size: 25px;
+        color: #C3B199;
+    }
+    
+    .icon:hover{
+        color: #fff;
+    }
+
+    .show{
+        display: block;
+        background-color: #C3B199;
+        /*height:10vh;*/
+    }
+
+    .navigation{
+        margin-top: 1%;
+        width: 60%;
+        display: flex;
+        float:left;
+    }
+    .ul{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    li{
+        width: 100%;
+        margin: 0 3px;
+    }
+
+    .force{
+        color: #785B34;
+        font-size: 33px;
+        font-weight: bold;
+        display: inline-block;
+        width: 70%;
+        border:none;
+    }
+
+    .information_mob{
+        width: 37%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        height: 7vh;;
+    }
+
+    .numbers_mob{
+        display:flex;
+        margin:0 4%;
+    }
+
+   
+    .number_mob1 , .number_mob2{
+        color: #ffffff;
+        font-size: 22px;
+        border-right:solid 1px #ffffff ;
+        width: 100%;
+        padding:0 3% ;
+    }
+
+    .logo_mob{
+        width: 30px;
+        height: 40px;
+        padding-left:6%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .email_mob{
+        width: 60%;
+        text-align: center;
+        font-size: 25px;
+        color:#fff;
+        padding: 0% 0 2% 0;
+    }
+
+    .languages_mob{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 1% 0 ;
+    }
+
+    .ukrMob{
+        padding: 0 1%;
+    }
+
+    .ukrMob img{
+        height: 34px;
+    }
+
+    .engMob{
+        height: 34px;
+        padding-right:5%;
+    }
+}
+
+/**********************************
+            Section
+***********************************/
+
+.Product{
+    margin-top: 5%;
+}
+
+.NameProduct{
+    width: 100%;
+    text-align: center;
+    font-family: 'Rozha One', serif;
+    font-size: 60px;
+    color: #785B34;
+}
+
+.imgKitComf{
+    width: 100%;
+}
+
+.InfAboutProd{
+    text-align: center;
+    font-size: 25px;
+}
+
+.Weight, .SizeSofa, .SizeTable, .SizeChair{
+    width: 47%;
+    float: left;
+    padding: 1%;
+    margin-top: 2%;
+    display: flex;
+}
+
+.iconInf{
+    width: 40px;
+    height: 40px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 1%;
+}
+
+.blockInf{
+    display:flow-root;
+    background-color: #F3F3F3;
+    padding: 3% 0;
+}
+
+.Inf{
+    margin: 1%;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.BlockPrice{
+    width: 100%;
+    display: flex;
+    margin-top: -5%;
+    padding: 1% 0;
+}
+
+.Price{
+    float: left;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+.buttonBox{
+    display: flex;
+    justify-content:flex-end;
+    width: 30%;
+}
+
+.buttonBuy{
+    width: 100%;
+    margin-right: 20%;
+    text-align: center;
+    line-height: 105px;
+}
+
+.buttonBuy a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #382318;
+    color: #C3B199;
+    font-size: 50px;
+    border-radius: 10px;
+    transition: ease-in-out .5s;
+}
+
+.buttonBuy a:hover, .buttonBuy{
+    color: #fff;
+    border-radius: 20px;
+    background-color: #211310;
+}
+
+.racurs1, .racurs2, .racurs3{
+    width: 100%;
+    height: 100%;
+    /*height: 832px;*/
+    margin-top: 3%;
+}
+
+.aboutProd{
+    background-color: #333333;
+    margin: 3% 0;
+}
+
+.titleBox{
+    font-size: 20px;
+    color: #FFE0B7;
+    font-family: 'Rubik', sans-serif;
+    padding:1%;
+}
+
+.contentBox{
+    font-size: 16px;
+    color:#C3B199;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+}
+
+/**********************************
+            Footer
+***********************************/
+
+footer{
+    background-color: #000;
+    margin-top: 7%;
+    padding: 2%;
+    display: flex;
+}
+
+.blockLogo{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+}
+
+.sociables{
+    text-align: center;
+}
+
+.sociable img:hover{
+    width: 22%;
+
+}
+
+/********************************************Section Services***************************************************************/
+
+.services{
+    display: block;
+    padding-top: 1%;
+    width: 20%;
+}
+
+.services h2 a{
+    font-family: Rubik;
+    font-size: 20px;
+    color: #C3B199;
+    padding: 0.5%;
+    font-style: italic;
+}
+
+.services h2 a:hover{
+    text-decoration:underline;
+}
+
+/********************************************Section additional Information***************************************************************/
+
+.additInf{
+    width: 25%;
+}
+
+.hotline{
+    padding-top:6%;
+}
+
+.hotline a{
+    font-style: italic;
+    font-family: cursive;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+.hotline a:hover{
+    text-decoration: underline;
+}
+
+.additInf h3{
+    font-family: 'Flamenco', cursive;
+    font-size: 20px;
+    color: #ffffff;
+    padding:4px 0;
+}
+
+@media  screen and (max-width:1276px){
+    
+.blockLogo{
+    width: 40%;
+}
+
+}
